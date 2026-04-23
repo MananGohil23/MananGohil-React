@@ -8,11 +8,14 @@ class Navbar extends React.Component {
     return (
       <nav className="bg-slate-900 text-white px-4 py-3 shadow-lg shadow-slate-950/30">
         <div className="flex flex-wrap items-center gap-3">
-          <Link className="text-lg font-semibold tracking-wide" to="/">
-            Student Dashboard
+          <Link to = "/" className="text-lg font-semibold tracking-wide" title = "Student Dashboard" >
+           <div>
+                <img src="/logo.png" alt="Logo" className="h-8 w-8 inline-block mr-2" />
+                Student Dashboard
+           </div>
           </Link>
           <div className="ml-auto flex flex-wrap items-center gap-2">
-            <NavLink
+            {/* <NavLink
               className={({ isActive }) =>
                 `rounded-full border px-4 py-2 text-sm font-medium transition ${
                   isActive
@@ -24,10 +27,10 @@ class Navbar extends React.Component {
               end
             >
               Home
-            </NavLink>
+            </NavLink> */}
             <NavLink
               className={({ isActive }) =>
-                `rounded-full border px-4 py-2 text-sm font-medium transition ${
+                `rounded-full bg-blue-500 px-4 py-2 text-sm font-medium transition ${
                   isActive
                     ? "border-white bg-white text-slate-900"
                     : "border-white/25 text-white hover:border-white hover:bg-white/10"
@@ -39,7 +42,7 @@ class Navbar extends React.Component {
             </NavLink>
             <NavLink
               className={({ isActive }) =>
-                `rounded-full border px-4 py-2 text-sm font-medium transition ${
+                `rounded-full bg-blue-500 px-4 py-2 text-sm font-medium transition ${
                   isActive
                     ? "border-white bg-white text-slate-900"
                     : "border-white/25 text-white hover:border-white hover:bg-white/10"
@@ -51,7 +54,7 @@ class Navbar extends React.Component {
             </NavLink>
             <NavLink
               className={({ isActive }) =>
-                `rounded-full border px-4 py-2 text-sm font-medium transition ${
+                `rounded-full bg-blue-500 px-4 py-2 text-sm font-medium transition ${
                   isActive
                     ? "border-white bg-white text-slate-900"
                     : "border-white/25 text-white hover:border-white hover:bg-white/10"
@@ -65,7 +68,7 @@ class Navbar extends React.Component {
               to="/profile"
               className="rounded-full bg-emerald-500 px-4 py-2 text-sm font-semibold text-white transition hover:bg-emerald-400"
             >
-              Profile
+              Login
             </Link>
           </div>
         </div>

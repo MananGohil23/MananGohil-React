@@ -1,5 +1,4 @@
 import React from 'react'
-
 const Sem1 = () => {
     return (
         <>
