@@ -5,11 +5,17 @@ import Attendance from "./pages/Attendance";
 import Profile from "./pages/Profile";
 import Sem1 from "./pages/Results.jsx/Sem1";
 import Sem2 from "./pages/Results.jsx/Sem2";
+import Sidebar from "./components/sidebar";
 function App() {
   return (
     <>
       <Router>
-        <Navbar />
+        <div className = "hidden lg:block">
+          <Navbar />
+        </div>
+        <div className = "fiexd lg:hidden">
+          <Sidebar />
+        </div>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/pages" element={<Home />} />
