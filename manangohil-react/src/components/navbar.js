@@ -6,7 +6,7 @@ class Navbar extends React.Component {
 
   render() {
     return (
-      <nav className="fixed w-full bg-slate-900 text-white px-4 py-3 shadow-lg shadow-slate-950/30">
+      <nav className=" w-full bg-slate-900 text-white px-4 py-3 shadow-lg shadow-slate-950/30">
         <div className="flex justify-between items-center gap-3">
           <Link to = "/" className="text-lg font-semibold tracking-wide" title = "Student Dashboard" >
            <div className = "flex items-center gap-2">
