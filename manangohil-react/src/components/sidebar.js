@@ -37,10 +37,10 @@ const Sidebar = () => {
             <NavLink
               onClick={() => setSidebarOpen(!sidebar)}
               className={({ isActive }) =>
-                `rounded-full bg-blue-500 px-4 py-3 text-l font-bold transition ${
+                `rounded-full bg-slate-900 px-4 py-3 text-l font-bold transition ${
                   isActive
                     ? "border-white bg-white text-slate-900"
-                    : "border-white/25 text-white hover:border-white hover:bg-blue-600"
+                    : "border-white/25 text-white hover:border-white hover:bg-blue-600 hover:text-xl "
                 }`
               }
               to="/attendance"
@@ -50,10 +50,10 @@ const Sidebar = () => {
             <NavLink
               onClick={() => setSidebarOpen(!sidebar)}
               className={({ isActive }) =>
-                `rounded-full bg-blue-500 px-4 py-3 text-l font-bold transition ${
+                `rounded-full bg-slate-900 px-4 py-3 text-l font-bold transition ${
                   isActive
                     ? "border-white bg-white text-slate-900"
-                    : "border-white/25 text-white hover:border-white hover:bg-blue-600"
+                    : "border-white/25 text-white hover:border-white hover:bg-blue-600 hover:text-xl "
                 }`
               }
               to="/results/sem1"
@@ -63,10 +63,10 @@ const Sidebar = () => {
             <NavLink
               onClick={() => setSidebarOpen(!sidebar)}
               className={({ isActive }) =>
-                `rounded-full bg-blue-500 px-4 py-3 text-l font-bold transition ${
+                `rounded-full bg-slate-900 px-4 py-3 text-l font-bold transition ${
                   isActive
                     ? "border-white bg-white text-slate-900"
-                    : "border-white/25 text-white hover:border-white hover:bg-blue-600"
+                    : "border-white/25 text-white hover:border-white hover:bg-blue-600 hover:text-xl "
                 }`
               }
               to="/results/sem2"
@@ -76,21 +76,21 @@ const Sidebar = () => {
             <NavLink
               onClick={() => setSidebarOpen(!sidebar)}
               className={({ isActive }) =>
-                `rounded-full bg-blue-500 px-4 py-3 text-l font-bold transition ${
+                `rounded-full bg-slate-900 px-4 py-3 text-l font-bold transition ${
                   isActive
                     ? "border-white bg-white text-slate-900"
-                    : "border-white/25 text-white hover:border-white hover:bg-blue-600"
+                    : "border-white/25 text-white hover:border-white hover:bg-blue-600 hover:text-xl "
                 }`
               }
               to="/profile"
             >
               Profile
             </NavLink>
-            <footer>
+            <footer className = "mt-auto flex items-center justify-center">
               <img
                 src="/logo.png"
                 alt="Logo"
-                className=" flex items-center h-10 w-10 mt-auto"
+                className=" flex items-center h-10 w-10"
               />
             </footer>
           </div>

@@ -6,25 +6,27 @@ import Profile from "./pages/Profile";
 import Sem1 from "./pages/Results.jsx/Sem1";
 import Sem2 from "./pages/Results.jsx/Sem2";
 import Sidebar from "./components/sidebar";
+// import  darkMode  from "./commponents/navbar";
 function App() {
   return (
     <>
-      <Router>
-        <div className = "hidden lg:block">
-          <Navbar />
-        </div>
-        <div className = "fiexd lg:hidden">
-          <Sidebar />
-        </div>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/pages" element={<Home />} />
-          <Route path="/attendance" element={<Attendance />} />
-          <Route path="/results/sem1" element={<Sem1 />} />
-          <Route path="/results/sem2" element={<Sem2 />} />
-          <Route path="/profile" element={<Profile />} />
-        </Routes>
-      </Router>
+      <div>
+        <Router>
+          <div className = "hidden lg:block">
+            <Navbar />
+          </div>
+          <div className = "fiexd lg:hidden">
+            <Sidebar />
+          </div>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/attendance" element={<Attendance />} />
+            <Route path="/results/sem1" element={<Sem1 />} />
+            <Route path="/results/sem2" element={<Sem2 />} />
+            <Route path="/profile" element={<Profile />} />
+          </Routes>
+        </Router>
+      </div>
     </>
   );
 }
