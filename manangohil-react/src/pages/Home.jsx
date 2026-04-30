@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import Marquee from 'react-fast-marquee';
 const Home = () => {
     return (
         <>
@@ -11,6 +12,9 @@ const Home = () => {
                     Welcome to the Student Dashboard.
                     
                 </h1>
+                <Marquee speed = {100} className="text-xl text-gray-700 mb-4">
+                    Stay organized, track your progress, and access all your academic resources in one place. Let's make your learning journey easier and more efficient!
+                </Marquee>
                 <div className = "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 p-4">
                     <div className = "bg-white rounded-lg shadow-lg p-6 transition hover:scale-105">
                         <h2 className = "text-3xl mb-2 font-bold">

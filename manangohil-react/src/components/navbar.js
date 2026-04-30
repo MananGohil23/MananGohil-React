@@ -41,7 +41,7 @@ class Navbar extends React.Component {
           <div className="flex gap-2">
             <NavLink
               className={({ isActive }) =>
-                `rounded-full bg-slate-900 px-4 py-2 text-lg font-medium transition ${
+                `rounded-full bg-slate-900 px-4 py-2 text-lg font-bold transition ${
                   isActive
                     ? "border-white bg-white text-slate-900"
                     : "border-white/25 text-white hover:border-white hover:bg-blue-600 hover:scale-[110%] "
@@ -53,7 +53,7 @@ class Navbar extends React.Component {
             </NavLink>
             <NavLink
               className={({ isActive }) =>
-                `rounded-full bg-slate-900 px-4 py-2 text-lg font-medium transition ${
+                `rounded-full bg-slate-900 px-4 py-2 text-lg font-bold transition ${
                   isActive
                     ? "border-white bg-white text-slate-900"
                     : "border-white/25 text-white hover:border-white hover:bg-blue-600 hover:scale-[110%] "
@@ -65,7 +65,7 @@ class Navbar extends React.Component {
             </NavLink>
             <NavLink
               className={({ isActive }) =>
-                `rounded-full bg-slate-900 px-4 py-2 text-lg font-medium transition ${
+                `rounded-full bg-slate-900 px-4 py-2 text-lg font-bold transition ${
                   isActive
                     ? "border-white bg-white text-slate-900"
                     : "border-white/25 text-white hover:border-white hover:bg-blue-600 hover:scale-[110%] "
