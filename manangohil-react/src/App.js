@@ -3,8 +3,8 @@ import Navbar from "./components/navbar";
 import Home from "./pages/Home";
 import Attendance from "./pages/Attendance";
 import Profile from "./pages/Profile";
-import Sem1 from "./pages/Results.jsx/Sem1";
-import Sem2 from "./pages/Results.jsx/Sem2";
+import Lectures  from "./pages/learning/Lectures";
+import Assignments from "./pages/learning/Assignments";
 import Sidebar from "./components/sidebar";
 // import  darkMode  from "./commponents/navbar";
 function App() {
@@ -21,8 +21,8 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/attendance" element={<Attendance />} />
-            <Route path="/results/sem1" element={<Sem1 />} />
-            <Route path="/results/sem2" element={<Sem2 />} />
+            <Route path="/learning/lectures" element={<Lectures />} />
+            <Route path="/learning/assignments" element={<Assignments />} />
             <Route path="/profile" element={<Profile />} />
           </Routes>
         </Router>

@@ -58,7 +58,7 @@ const Sidebar = () => {
               }
               to="/results/sem1"
             >
-              Semester 1 Results
+              Lectures
             </NavLink>
             <NavLink
               onClick={() => setSidebarOpen(!sidebar)}
@@ -71,7 +71,7 @@ const Sidebar = () => {
               }
               to="/results/sem2"
             >
-              Semester 2 Results
+              Assignments
             </NavLink>
             <NavLink
               onClick={() => setSidebarOpen(!sidebar)}

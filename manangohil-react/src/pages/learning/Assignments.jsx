@@ -1,5 +1,5 @@
 import React from 'react'
-const Sem2 = () => {
+const Assignments = () => {
     return (
         <>
         <div className = "bg-gray-100 min-h-screen grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 p-4">
@@ -23,4 +23,4 @@ const Sem2 = () => {
     );
 };
 
-export default Sem2;
+export default Assignments;

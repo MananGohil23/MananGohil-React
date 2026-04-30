@@ -61,7 +61,7 @@ class Navbar extends React.Component {
               }
               to="/results/sem1"
             >
-              Semester 1
+              Lectures
             </NavLink>
             <NavLink
               className={({ isActive }) =>
@@ -73,7 +73,7 @@ class Navbar extends React.Component {
               }
               to="/results/sem2"
             >
-              Semester 2
+              Assignments
             </NavLink>
           </div>
           <div className="flex items-center gap-2">

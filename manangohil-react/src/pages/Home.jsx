@@ -14,27 +14,42 @@ const Home = () => {
                 <div className = "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 p-4">
                     <div className = "bg-white rounded-lg shadow-lg p-6 transition hover:scale-105">
                         <h2 className = "text-2xl font-bold">
-                            Card
+                            Check your Attendance
                         </h2>
-                        <p className = "text-gray-700 p-1 text-lg">
-                            Card Content will be displayed here. This is a placeholder for the card content. You can replace this with actual content later.
-                        </p>
-                    </div>
-                    <div className = "bg-white rounded-lg shadow-lg p-6 transition hover:scale-[110%]">
-                        <h2 className = "text-2xl font-bold">
-                            Card
-                        </h2>
-                        <p className = "text-gray-700 p-1 text-lg">
-                            Card Content will be displayed here. This is a placeholder for the card content. You can replace this with actual content later.
-                        </p>
+                        <div>
+                            <a href = "/Attendance">
+                                <img src = "/attendance.jpg" alt = "Attendance" className = "w-full h-[290px] object-cover rounded-md mb-2"/>
+                            </a>
+                            <p className = "text-gray-700 p-1 text-lg">
+                                Check your attendance records and stay updated on your attendance status. View detailed reports and ensure you meet the attendance requirements for your courses.
+                            </p>
+                        </div>
                     </div>
                     <div className = "bg-white rounded-lg shadow-lg p-6 transition hover:scale-105">
                         <h2 className = "text-2xl font-bold">
-                            Card
+                            Start Learning 
                         </h2>
-                        <p className = "text-gray-700 p-1 text-lg">
-                            Card Content will be displayed here. This is a placeholder for the card content. You can replace this with actual content later.
-                        </p>
+                        <div>
+                            <a href = "/learning/Lectures">
+                                <img src = "/startLearning.jpg" alt = "Start Learning" className = "w-full h-[290px] object-cover rounded-md mb-2"/>
+                            </a>
+                            <p className = "text-gray-700 p-1 text-lg">
+                                Personalised Video lectures and learning materials tailored to your courses. Access high-quality educational content to enhance your understanding and excel in your studies.
+                            </p>
+                        </div>
+                    </div>
+                    <div className = "bg-white rounded-lg shadow-lg p-6 transition hover:scale-105">
+                        <h2 className = "text-2xl font-bold">
+                            Assignments
+                        </h2>
+                        <div>
+                            <a href = "/learning/Assignments">
+                                <img src = "/assignments.jpg" alt = "Assignments" className = "w-full h-[290px] object-cover rounded-md mb-2"/>
+                            </a>
+                            <p className = "text-gray-700 p-1 text-lg">
+                                Stay on top of your assignments and deadlines. View upcoming assignments, submit your work, and track your progress to ensure you never miss an important task.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
