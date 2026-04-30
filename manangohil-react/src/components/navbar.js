@@ -59,7 +59,7 @@ class Navbar extends React.Component {
                     : "border-white/25 text-white hover:border-white hover:bg-blue-600 hover:scale-[110%] "
                 }`
               }
-              to="/results/sem1"
+              to="/learning/Lectures"
             >
               Lectures
             </NavLink>
@@ -71,7 +71,7 @@ class Navbar extends React.Component {
                     : "border-white/25 text-white hover:border-white hover:bg-blue-600 hover:scale-[110%] "
                 }`
               }
-              to="/results/sem2"
+              to="/learning/Assignments"
             >
               Assignments
             </NavLink>

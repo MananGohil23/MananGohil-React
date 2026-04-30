@@ -13,7 +13,7 @@ const Home = () => {
                 </h1>
                 <div className = "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 p-4">
                     <div className = "bg-white rounded-lg shadow-lg p-6 transition hover:scale-105">
-                        <h2 className = "text-2xl font-bold">
+                        <h2 className = "text-3xl mb-2 font-bold">
                             Check your Attendance
                         </h2>
                         <div>
@@ -26,7 +26,7 @@ const Home = () => {
                         </div>
                     </div>
                     <div className = "bg-white rounded-lg shadow-lg p-6 transition hover:scale-105">
-                        <h2 className = "text-2xl font-bold">
+                        <h2 className = "text-3xl mb-2 font-bold">
                             Start Learning 
                         </h2>
                         <div>
@@ -39,7 +39,7 @@ const Home = () => {
                         </div>
                     </div>
                     <div className = "bg-white rounded-lg shadow-lg p-6 transition hover:scale-105">
-                        <h2 className = "text-2xl font-bold">
+                        <h2 className = "text-3xl mb-2 font-bold">
                             Assignments
                         </h2>
                         <div>
