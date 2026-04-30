@@ -44,7 +44,7 @@ class Navbar extends React.Component {
                 `rounded-full bg-slate-900 px-4 py-2 text-lg font-medium transition ${
                   isActive
                     ? "border-white bg-white text-slate-900"
-                    : "border-white/25 text-white hover:border-white hover:bg-blue-600 hover:text-xl "
+                    : "border-white/25 text-white hover:border-white hover:bg-blue-600 hover:scale-[110%] "
                 }`
               }
               to="/attendance"
@@ -56,7 +56,7 @@ class Navbar extends React.Component {
                 `rounded-full bg-slate-900 px-4 py-2 text-lg font-medium transition ${
                   isActive
                     ? "border-white bg-white text-slate-900"
-                    : "border-white/25 text-white hover:border-white hover:bg-blue-600 hover:text-xl "
+                    : "border-white/25 text-white hover:border-white hover:bg-blue-600 hover:scale-[110%] "
                 }`
               }
               to="/results/sem1"
@@ -68,7 +68,7 @@ class Navbar extends React.Component {
                 `rounded-full bg-slate-900 px-4 py-2 text-lg font-medium transition ${
                   isActive
                     ? "border-white bg-white text-slate-900"
-                    : "border-white/25 text-white hover:border-white hover:bg-blue-600 hover:text-xl "
+                    : "border-white/25 text-white hover:border-white hover:bg-blue-600 hover:scale-[110%] "
                 }`
               }
               to="/results/sem2"
@@ -79,7 +79,7 @@ class Navbar extends React.Component {
           <div className="flex items-center gap-2">
             <Link
               to="/profile"
-              className="rounded-full bg-emerald-500 px-4 py-2 text-lg hover:text-xl font-semibold text-white transition hover:bg-emerald-400"
+              className="rounded-full bg-emerald-500 px-4 py-2 text-lg hover:scale-[110%] font-semibold text-white transition hover:bg-emerald-400"
             >
               Login
             </Link>

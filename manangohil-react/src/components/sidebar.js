@@ -40,7 +40,7 @@ const Sidebar = () => {
                 `rounded-full bg-slate-900 px-4 py-3 text-l font-bold transition ${
                   isActive
                     ? "border-white bg-white text-slate-900"
-                    : "border-white/25 text-white hover:border-white hover:bg-blue-600 hover:text-xl "
+                    : "border-white/25 text-white hover:border-white hover:bg-blue-600 hover:scale-[110%] "
                 }`
               }
               to="/attendance"
@@ -53,7 +53,7 @@ const Sidebar = () => {
                 `rounded-full bg-slate-900 px-4 py-3 text-l font-bold transition ${
                   isActive
                     ? "border-white bg-white text-slate-900"
-                    : "border-white/25 text-white hover:border-white hover:bg-blue-600 hover:text-xl "
+                    : "border-white/25 text-white hover:border-white hover:bg-blue-600 hover:scale-[110%] "
                 }`
               }
               to="/results/sem1"
@@ -66,7 +66,7 @@ const Sidebar = () => {
                 `rounded-full bg-slate-900 px-4 py-3 text-l font-bold transition ${
                   isActive
                     ? "border-white bg-white text-slate-900"
-                    : "border-white/25 text-white hover:border-white hover:bg-blue-600 hover:text-xl "
+                    : "border-white/25 text-white hover:border-white hover:bg-blue-600 hover:scale-[110%] "
                 }`
               }
               to="/results/sem2"
@@ -79,7 +79,7 @@ const Sidebar = () => {
                 `rounded-full bg-slate-900 px-4 py-3 text-l font-bold transition ${
                   isActive
                     ? "border-white bg-white text-slate-900"
-                    : "border-white/25 text-white hover:border-white hover:bg-blue-600 hover:text-xl "
+                    : "border-white/25 text-white hover:border-white hover:bg-blue-600 hover:scale-[110%] "
                 }`
               }
               to="/profile"
