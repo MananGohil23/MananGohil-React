@@ -15,7 +15,7 @@ function App() {
           <div className = "hidden lg:block">
             <Navbar />
           </div>
-          <div className = "fiexd lg:hidden">
+          <div className = "lg:hidden">
             <Sidebar />
           </div>
           <Routes>

@@ -25,19 +25,6 @@ class Navbar extends React.Component {
               </div>
             </div>
           </Link>
-          {/* <NavLink
-              className={({ isActive }) =>
-                `rounded-full border px-4 py-2 text-sm font-medium transition ${
-                  isActive
-                    ? "border-white bg-white text-slate-900"
-                    : "border-white/25 text-white hover:border-white hover:bg-white/10"
-                }`
-              }
-              to="/"
-              end
-            >
-              Home
-            </NavLink> */}
           <div className="flex gap-2">
             <NavLink
               className={({ isActive }) =>
